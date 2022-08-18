@@ -1,0 +1,27 @@
+@startuml v8_DefinedTypes
+
+sprite $DefinedTypes [20x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzKPKPKPKPKPKPKPKPKPKPKPKPKPKPKPKPzzzz
+zzzzKPzzzzzzzzzzzzzzzzzzzzzzzzzzzzKPzzzz
+zzzzzzKQKQKQKQzzKQKQKQKQzzKQKQKQKQzzzzzz
+zzzzzzKQfSfSKQzzKQfSfSKQzzKQfSfSKQzzzzzz
+zzzzzzKQWxWxKQzzKQWxWxKQzzKQWxWxKQzzzzzz
+zzzzzzKPKPKPKPzzKPKPKPKPzzKPKPKPKPzzzzzz
+zzzzKPzzzzzzzzzzzzzzzzzzzzzzzzzzzzKPzzzz
+zzzzKPKPKPKPKPKPKPKPKPKPKPKPKPKPKPKPzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_DefinedTypes(_alias) ENTITY(DefinedTypes,_alias)
+!define v8_DefinedTypes(_alias, _label) ENTITY(DefinedTypes,_alias,_label)
+!define _ОпределяемыйТип(_alias) ENTITY(DefinedTypes,_alias)
+!define _ОпределяемыйТип(_alias, _label) ENTITY(DefinedTypes,_alias,_label)
+
+@enduml

@@ -1,0 +1,27 @@
+@startuml v8_ChartsOfCharacteristicTypes
+
+sprite $ChartsOfCharacteristicTypes [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzrjSzOzOzOzOzOzOzOzOzOzSzrjzzzz
+zzSyKiKiKiKiKiKiKiKiKiKiKiSyzzzz
+zzGQGQGQGQGQGQGQGQGQGQGQGQGQzzzz
+zzWOzzzzzzzzzzzzzzzzzzzzzzWOzzzz
+zzW;zznievnSivnSivnSevnizzW;zzzz
+zzWNzzrRivnRj>nRj>nRivrRzzWNzzzz
+zzWNzznievnRivnRivnRevnizzWNzzzz
+zzWNzzrSj>rRn>rRn>rRj>rSzzWNzzzz
+zzWNzzrievniivniivnievrizzWNzzzz
+zzWNvzn?ivn>j>n>j>n>ivn?vzWNzzzz
+zzW;riK<evO<evO<evO<evK<riW;zzzz
+zzWOzzvivzvivzvivzvivzvizzWOzzzz
+zzj>WOWNWNWNWNWNWNWNWNWNWOj>zzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_ChartsOfCharacteristicTypes(_alias) ENTITY(ChartsOfCharacteristicTypes,_alias)
+!define v8_ChartsOfCharacteristicTypes(_alias, _label) ENTITY(ChartsOfCharacteristicTypes,_alias,_label)
+!define _ПВХ(_alias) ENTITY(ChartsOfCharacteristicTypes,_alias)
+!define _ПВХ(_alias, _label) ENTITY(ChartsOfCharacteristicTypes,_alias,_label)
+
+@enduml

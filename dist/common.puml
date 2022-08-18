@@ -1,5 +1,45 @@
 @startuml
 
+' Sprite for Resource
+sprite $r [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzjaXHTGT%zzzzzzzzzz
+zzzzzzzzzzzzjbbHTHT%T#zzzzzzzzzz
+zzzzzzzzzznbbHXHX%T#Olzzzzzzzzzz
+zzzzzzzzzznYnYnYT#SlOlzzzzzzzzzz
+zzzzzzzzzznYnYjYT#OlKVzzzzzzzzzz
+zzzzzzzzzznYjYbHOlKVK~zzzzzzzzzz
+zzzzzzzzzzjYbHXHOlKVG_zzzzzzzzzz
+zzzzzzzzzzbHXHP$KVG_@!zzzzzzzzzz
+zzzzzzzzzzXHP$H#K~G!aszzzzzzzzzz
+zzzzzzzzzzP$H#^#G_aszzzzzzzzzzzz
+zzzzzzzzzzH#^#^#b:zzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+' Sprite for Demension
+sprite $d [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzaOzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzn>;&n>zzzzzzzzzzzzzzzzzzzzzz
+zzzzJb;&Jbzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzaNzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzaNzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzaNzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzaNzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzaNzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzaNzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzuMt$uMzzzzzzzzzzzzJbn>zzzzzz
+zzzzt$smt$aNaNaNaNaNaN;&;&aOzzzz
+zzzzuMt%uMzzzzzzzzzzzzJbn>zzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
 ' Creates an aliased entity with a sprite (label equals alias)
 ' Params:
 '   e_sprite:   the sprite for the 1C:Enterprise icon representing the entity
