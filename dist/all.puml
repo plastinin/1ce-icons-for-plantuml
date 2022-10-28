@@ -7,5 +7,6 @@
 !include v8_ChartsOfCharacteristicTypes.puml
 !include v8_DefinedTypes.puml
 !include v8_Enum.puml
+!include v8_Form.puml
 
 @enduml
