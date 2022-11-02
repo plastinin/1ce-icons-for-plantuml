@@ -19,9 +19,9 @@ zzj>WOWNWNWNWNWNWNWNWNWNWNWOj>zz
 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 }
 
-!define v8_Form(_alias) ENTITY(form16,_alias)
-!define v8_Form(_alias, _label) ENTITY(form16,_alias,_label)
-!define _Форма(_alias) ENTITY(form16,_alias)
-!define _Форма(_alias, _label) ENTITY(form16,_alias,_label)
+!define v8_Form(_alias) ENTITY(form,_alias)
+!define v8_Form(_alias, _label) ENTITY(form,_alias,_label)
+!define _Форма(_alias) ENTITY(form,_alias)
+!define _Форма(_alias, _label) ENTITY(form,_alias,_label)
 
 @enduml
